@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Sample route to handle GET requests
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('Hello, Express!');
 });
 
